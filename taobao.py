@@ -278,7 +278,7 @@ class spyder():
                 self.loop()
                 time.sleep(random.randint(1,5))
             self.work.save(self.path)
-            send('usb_disk_data@126.com','bh2018','1379875051@qq.com',"smtp.126.com",'淘宝爬虫进度提示',self.goods+'商品信息已经成功下载，正在下载这类商品评论信息')
+            send('u*******ata@126.com','********','13******051@qq.com',"smtp.126.com",'淘宝爬虫进度提示',self.goods+'商品信息已经成功下载，正在下载这类商品评论信息')
             com_spyder(self.path,t=self.t)
         except:
             traceback.print_exc()
@@ -302,8 +302,8 @@ while 1:
             t=float(t)
         goods_spyder=spyder(goods=goods,pages=pages,t=t)
         goods_spyder.run()
-        send('usb_disk_data@126.com','bh2018','1379875051@qq.com',"smtp.126.com",'淘宝爬虫进度提示','商品评论信息已经成功下载，请开始下一类商品的爬取任务')
-        send('usb_disk_data@126.com','bh2018','usb_disk_data@126.com',"smtp.126.com",'哈哈','哈哈')
+        send('u*********a@126.com','*******','1*******51@qq.com',"smtp.126.com",'淘宝爬虫进度提示','商品评论信息已经成功下载，请开始下一类商品的爬取任务')
+        send('u********a@126.com','*******','u********a@126.com',"smtp.126.com",'哈哈','哈哈')
     time.sleep(30)
 
 
